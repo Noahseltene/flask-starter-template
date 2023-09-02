@@ -30,7 +30,7 @@ app = Flask(__name__)
 # Display all things
 @app.route('/')
 def showMain():
-    things = ["thing1", "thing2", "cat-in-the-hat"]
+    things = ["Feven", "thing2", "cat-in-the-hat"]
 
     return render_template('things.html', things=things)
 
